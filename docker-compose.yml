@@ -35,7 +35,7 @@ services:
       - /opt/monitoring.conf.d/prometheus/config:/etc/prometheus
       - /opt/monitoring.conf.d/prometheus/data:/prometheus
     environment:
-      - TZ=Europe/London
+      - TZ=Europe/Athens
     restart: unless-stopped
 
   tado-exporter:
